@@ -12,6 +12,7 @@
     "react-native": "0.57.1",
     "react-native-fast-image": "^5.0.10",
     "react-native-share": "^1.1.2",
+    "react-native-web-image": "0.0.6",
     "react-navigation": "^2.16.0",
     "rn-fetch-blob": "^0.10.13"
   },

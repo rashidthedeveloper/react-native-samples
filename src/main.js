@@ -28,6 +28,12 @@ export default class main extends Component {
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
         />
+        <Button
+          onPress={() => this.props.navigation.navigate("WebImage")}
+          title="Web Image"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
       </View>
     );
   }

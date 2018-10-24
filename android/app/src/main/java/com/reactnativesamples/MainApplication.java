@@ -3,6 +3,7 @@ package com.reactnativesamples;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import org.vovkasm.WebImage.WebImagePackage;
 import com.dylanvann.fastimage.FastImageViewPackage;
 import cl.json.RNSharePackage;
 import cl.json.ShareApplication;
@@ -27,6 +28,7 @@ public class MainApplication extends Application implements ShareApplication,Rea
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new WebImagePackage(),
             new FastImageViewPackage(),
             new RNSharePackage(),
             new RNFetchBlobPackage()
