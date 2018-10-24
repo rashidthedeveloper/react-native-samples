@@ -14,6 +14,7 @@ import DownloadImage from "./src/image_download_android/index";
 import ShareImage from "./src/image_share_android/index";
 import FastImage from "./src/fast_image_loading/index";
 import WebImage from "./src/web_image_loading/index";
+import ToggleFunction from "./src/toggle_function/index";
 
 export default createStackNavigator({
   Home: {
@@ -30,5 +31,8 @@ export default createStackNavigator({
   },
   WebImage: {
     screen: WebImage
+  },
+  ToggleFunction: {
+    screen: ToggleFunction
   }
 });

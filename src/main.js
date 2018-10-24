@@ -34,6 +34,12 @@ export default class main extends Component {
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
         />
+        <Button
+          onPress={() => this.props.navigation.navigate("ToggleFunction")}
+          title="Toggle Function"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
       </View>
     );
   }
