@@ -40,6 +40,30 @@ export default class main extends Component {
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
         />
+        <Button
+          onPress={() => this.props.navigation.navigate("Internet")}
+          title="Internet Connectivity"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
+        <Button
+          onPress={() => this.props.navigation.navigate("BackHandler")}
+          title="Exit App"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
+        <Button
+          onPress={() => this.props.navigation.navigate("SpinnerOverlay")}
+          title="Spinner Overlay"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
+        <Button
+          onPress={() => this.props.navigation.navigate("PuzzleTextBox")}
+          title="Puzzle TextBox"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
       </View>
     );
   }

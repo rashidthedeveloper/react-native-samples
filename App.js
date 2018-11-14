@@ -15,6 +15,10 @@ import ShareImage from "./src/image_share_android/index";
 import FastImage from "./src/fast_image_loading/index";
 import WebImage from "./src/web_image_loading/index";
 import ToggleFunction from "./src/toggle_function/index";
+import Internet from "./src/internet_connectivity/index";
+import BackHandler from "./src/back_handler/index";
+import SpinnerOverlay from "./src/spinner_overlay/index";
+import PuzzleTextBox from "./src/puzzle_text_box/index";
 
 export default createStackNavigator({
   Home: {
@@ -34,5 +38,17 @@ export default createStackNavigator({
   },
   ToggleFunction: {
     screen: ToggleFunction
+  },
+  Internet: {
+    screen: Internet
+  },
+  BackHandler: {
+    screen: BackHandler
+  },
+  SpinnerOverlay: {
+    screen: SpinnerOverlay
+  },
+  PuzzleTextBox: {
+    screen: PuzzleTextBox
   }
 });
