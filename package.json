@@ -11,8 +11,10 @@
     "react": "16.5.0",
     "react-native": "0.57.1",
     "react-native-fast-image": "^5.0.10",
+    "react-native-image-view": "^2.1.2",
     "react-native-loading-spinner-overlay": "^1.0.1",
     "react-native-share": "^1.1.2",
+    "react-native-sweet-alert": "^2.0.1",
     "react-native-web-image": "0.0.6",
     "react-navigation": "^2.16.0",
     "rn-fetch-blob": "^0.10.13"

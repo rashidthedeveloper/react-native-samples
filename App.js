@@ -19,6 +19,9 @@ import Internet from "./src/internet_connectivity/index";
 import BackHandler from "./src/back_handler/index";
 import SpinnerOverlay from "./src/spinner_overlay/index";
 import PuzzleTextBox from "./src/puzzle_text_box/index";
+import SweetAlert from "./src/sweet_alert";
+import AsyncStorage from "./src/AsyncStorage";
+import ImageView from "./src/expanding_image_view";
 
 export default createStackNavigator({
   Home: {
@@ -50,5 +53,14 @@ export default createStackNavigator({
   },
   PuzzleTextBox: {
     screen: PuzzleTextBox
+  },
+  SweetAlert: {
+    screen: SweetAlert
+  },
+  AsyncStorage: {
+    screen: AsyncStorage
+  },
+  ImageView: {
+    screen: ImageView
   }
 });

@@ -138,6 +138,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-sweet-alert')
     implementation project(':react-native-web-image')
     implementation project(':react-native-fast-image')
     implementation project(':react-native-share')

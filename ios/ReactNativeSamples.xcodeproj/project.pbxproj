@@ -41,6 +41,7 @@
 		5C34BCA7B2524322B5216040 /* libRNShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DCED7D4BCB4CD9B77E4726 /* libRNShare.a */; };
 		AD1962525A6545D09E4CBD20 /* libFastImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A9C33F49EA405BB7CF165F /* libFastImage.a */; };
 		B442C6575ABB40BDAC7EAA58 /* libWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DD1C1AC0C9480EAF6398B4 /* libWebImage.a */; };
+		304B15BB31A241B3905E80CB /* libRNSweetAlert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AACE82EC4E9497B88195F31 /* libRNSweetAlert.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -354,6 +355,8 @@
 		B1A9C33F49EA405BB7CF165F /* libFastImage.a */ = {isa = PBXFileReference; name = "libFastImage.a"; path = "libFastImage.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		99C157FD1ADD4622BB5C0C8F /* WebImage.xcodeproj */ = {isa = PBXFileReference; name = "WebImage.xcodeproj"; path = "../node_modules/react-native-web-image/WebImage/WebImage.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		E0DD1C1AC0C9480EAF6398B4 /* libWebImage.a */ = {isa = PBXFileReference; name = "libWebImage.a"; path = "libWebImage.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		003087FB2A5446A8945D25DA /* RNSweetAlert.xcodeproj */ = {isa = PBXFileReference; name = "RNSweetAlert.xcodeproj"; path = "../node_modules/react-native-sweet-alert/ios/RNSweetAlert.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		2AACE82EC4E9497B88195F31 /* libRNSweetAlert.a */ = {isa = PBXFileReference; name = "libRNSweetAlert.a"; path = "libRNSweetAlert.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,6 +388,7 @@
 				5C34BCA7B2524322B5216040 /* libRNShare.a in Frameworks */,
 				AD1962525A6545D09E4CBD20 /* libFastImage.a in Frameworks */,
 				B442C6575ABB40BDAC7EAA58 /* libWebImage.a in Frameworks */,
+				304B15BB31A241B3905E80CB /* libRNSweetAlert.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +579,7 @@
 				C0673E5F325B40F0A4D3F964 /* RNShare.xcodeproj */,
 				A86744D876754AA1A163FCE4 /* FastImage.xcodeproj */,
 				99C157FD1ADD4622BB5C0C8F /* WebImage.xcodeproj */,
+				003087FB2A5446A8945D25DA /* RNSweetAlert.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1206,6 +1211,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1213,6 +1219,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-share\ios",
 					"$(SRCROOT)\..\node_modules\react-native-fast-image\ios\FastImage/**",
 					"$(SRCROOT)\..\node_modules\react-native-web-image\WebImage\WebImage/**",
+					"$(SRCROOT)\..\node_modules\react-native-sweet-alert/**",
 				);
 			};
 			name = Debug;
@@ -1238,6 +1245,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1245,6 +1253,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-share\ios",
 					"$(SRCROOT)\..\node_modules\react-native-fast-image\ios\FastImage/**",
 					"$(SRCROOT)\..\node_modules\react-native-web-image\WebImage\WebImage/**",
+					"$(SRCROOT)\..\node_modules\react-native-sweet-alert/**",
 				);
 			};
 			name = Release;
@@ -1271,6 +1280,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-share\ios",
 					"$(SRCROOT)\..\node_modules\react-native-fast-image\ios\FastImage/**",
 					"$(SRCROOT)\..\node_modules\react-native-web-image\WebImage\WebImage/**",
+					"$(SRCROOT)\..\node_modules\react-native-sweet-alert/**",
 				);
 			};
 			name = Debug;
@@ -1296,6 +1306,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-share\ios",
 					"$(SRCROOT)\..\node_modules\react-native-fast-image\ios\FastImage/**",
 					"$(SRCROOT)\..\node_modules\react-native-web-image\WebImage\WebImage/**",
+					"$(SRCROOT)\..\node_modules\react-native-sweet-alert/**",
 				);
 			};
 			name = Release;
@@ -1329,6 +1340,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1336,6 +1348,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-share\ios",
 					"$(SRCROOT)\..\node_modules\react-native-fast-image\ios\FastImage/**",
 					"$(SRCROOT)\..\node_modules\react-native-web-image\WebImage\WebImage/**",
+					"$(SRCROOT)\..\node_modules\react-native-sweet-alert/**",
 				);
 			};
 			name = Debug;
@@ -1369,6 +1382,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1376,6 +1390,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-share\ios",
 					"$(SRCROOT)\..\node_modules\react-native-fast-image\ios\FastImage/**",
 					"$(SRCROOT)\..\node_modules\react-native-web-image\WebImage\WebImage/**",
+					"$(SRCROOT)\..\node_modules\react-native-sweet-alert/**",
 				);
 			};
 			name = Release;
@@ -1408,6 +1423,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1415,6 +1431,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-share\ios",
 					"$(SRCROOT)\..\node_modules\react-native-fast-image\ios\FastImage/**",
 					"$(SRCROOT)\..\node_modules\react-native-web-image\WebImage\WebImage/**",
+					"$(SRCROOT)\..\node_modules\react-native-sweet-alert/**",
 				);
 			};
 			name = Debug;
@@ -1447,6 +1464,7 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1454,6 +1472,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-share\ios",
 					"$(SRCROOT)\..\node_modules\react-native-fast-image\ios\FastImage/**",
 					"$(SRCROOT)\..\node_modules\react-native-web-image\WebImage\WebImage/**",
+					"$(SRCROOT)\..\node_modules\react-native-sweet-alert/**",
 				);
 			};
 			name = Release;

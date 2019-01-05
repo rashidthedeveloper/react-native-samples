@@ -64,6 +64,24 @@ export default class main extends Component {
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
         />
+        <Button
+          onPress={() => this.props.navigation.navigate("SweetAlert")}
+          title="Sweet Alert"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
+        <Button
+          onPress={() => this.props.navigation.navigate("AsyncStorage")}
+          title="AsyncStorage"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
+        <Button
+          onPress={() => this.props.navigation.navigate("ImageView")}
+          title="Expandable ImageView"
+          color="#841584"
+          accessibilityLabel="Learn more about this purple button"
+        />
       </View>
     );
   }
