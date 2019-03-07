@@ -22,6 +22,7 @@ import PuzzleTextBox from "./src/puzzle_text_box/index";
 import SweetAlert from "./src/sweet_alert";
 import AsyncStorage from "./src/AsyncStorage";
 import ImageView from "./src/expanding_image_view";
+import QrCode from "./src/qr_code_generator";
 
 export default createStackNavigator({
   Home: {
@@ -62,5 +63,8 @@ export default createStackNavigator({
   },
   ImageView: {
     screen: ImageView
+  },
+  QrCode: {
+    screen: QrCode
   }
 });

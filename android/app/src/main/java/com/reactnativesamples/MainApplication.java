@@ -3,6 +3,7 @@ package com.reactnativesamples;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.horcrux.svg.SvgPackage;
 import com.clipsub.RNSweetAlert.RNSweetAlertPackage;
 import org.vovkasm.WebImage.WebImagePackage;
 import com.dylanvann.fastimage.FastImageViewPackage;
@@ -29,6 +30,7 @@ public class MainApplication extends Application implements ShareApplication,Rea
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new SvgPackage(),
             new RNSweetAlertPackage(),
             new WebImagePackage(),
             new FastImageViewPackage(),
